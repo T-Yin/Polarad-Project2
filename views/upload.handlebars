@@ -1,0 +1,31 @@
+
+{{> navbar }}
+
+<div class="container">
+
+    <div class="mx-auto">
+  
+       <div class="form-section">
+           <h2>Create a Post</h2>
+           <div class="border"></div>
+            <form>
+                {{!-- Upload Photo (only accepts images)--}}
+                <div class="form-group">
+                    <label for="file-input"><b>Upload photo:</b></label>
+                    <input type="file" class="form-control-file" id="file-input" accept="image/*">
+                </div>
+
+                {{!-- Enter caption --}}
+                <div class="form-group">
+                    <label for="caption-input"><b>Caption:</b></label>
+                    <input class="form-control" type="text" id="caption-input" placeholder="Enter text here...">
+                </div>
+
+                <button class="btn btn-primary" id="upload-btn">Upload</button>
+
+            </form>
+        </div>
+
+    </div>
+
+</div>

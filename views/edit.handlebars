@@ -1,0 +1,31 @@
+{{> navbar }}
+
+<div class="container">
+
+    <div class="mx-auto">
+
+        <div class="form-section">
+            <h2>Update Profile</h2>
+            <div class="border"></div>
+            <form>
+                {{!-- Upload Photo (only accepts images)--}}
+                <div class="form-group">
+                    <label for="file-input"><b>Change profile picture:</b></label>
+                    <input type="file" class="form-control-file" id="profile-pic-input" accept="image/*">
+                </div>
+
+                {{!-- Edit Bio --}}
+                <div class="form-group">
+                    <label for="caption-input"><b>Edit bio:</b></label>
+                    <textarea class="form-control" id="bio-text" rows="3"></textarea>
+                </div>
+
+                <button class="btn btn-primary" id="update-btn">Update</button>
+
+            </form>
+        </div>
+
+
+    </div>
+
+</div>
