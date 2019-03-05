@@ -1,7 +1,7 @@
 function hover(element) {
-    element.setAttribute('src', '/images/heart-outline-color.png');
+    $(element).attr("src", "/images/heart-outline-color.png");
   }
   
   function unhover(element) {
-    element.setAttribute('src', '/images/heart-outline.png');
+    $(element).attr("src", "/images/heart-outline.png");
   }
