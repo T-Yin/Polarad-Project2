@@ -9,7 +9,7 @@ $(function () {
 
         console.log(username + "|" + password);
         // Looks for match in Username and Password.
-
+        
         // IF match -> successful log in and moves to profile page.
 
         // ELSE not match -> alerts that Username and/or Password is incorrect.
@@ -45,10 +45,10 @@ $(function () {
         $.ajax("[[API LINK]]", {
             type: "POST",
             img_id: profilePic,
-            caption: bio
+            caption: caption
         }).then(function () {
             // Move to profile page and alert "Success!".
-            
+            location.href = "/profile/:account"
         }
         );
 
@@ -68,9 +68,17 @@ $(function () {
             bio: bio
         }).then(function () {
             // Move to profile page and alert "Success!".
-            
+            location.href = "/profile/:account"
         }
         );
     });
-
 })
+// add hover effect to like button
+
+function hover(element) {
+    $(element).attr("src", "/images/heart-outline-color.png");
+}
+
+function unhover(element) {
+    $(element).attr("src", "/images/heart-outline.png");
+}
