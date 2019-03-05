@@ -3,7 +3,7 @@
     <a class="navbar-brand logo-text" href="/">
 
         {{!-- Polarad Logo and Home Link --}}
-        <img src="images/polarad_icon_mini.png" width="45" height="45" class="d-inline-block align-top"
+        <img src="images/polarad_icon.svg" width="45" height="45" class="d-inline-block align-top"
             alt="Polarad Logo"> Polarad
     </a>
 
@@ -15,7 +15,7 @@
     {{#if loggedIn}}
     <div class="set">
         {{!-- Profile Picture --}}
-        <a class="user-login" href=""></a>
+        <a class="user-login" href="">
         <img class="mr-1 rounded-circle" src="images/default-user.jpg" width="45" height="45" alt="Profile Picture"></a>
         <!-- Username with Dropdown Menu of Links-->
         <div class="btn-group dropleft">
@@ -33,10 +33,14 @@
     </div>
     {{else}}
     <div class="set">
-        {{!-- Login Button --}}
-        <button type="button" class="btn btn-primary" id="login-btn">Log in</button>
-        {{!-- Sign Up Button --}}
-        <button type="button" class="btn" id="sign-up-btn">Sign up</button>
+        {{!-- Login Button // Links to Index --}}
+        <a href="/">
+        <button type="button" class="btn btn-primary" id="login-navbtn">Log in</button>
+        </a>
+        {{!-- Sign Up Button // Links to Index --}}
+        <a href="/">
+        <button type="button" class="btn" id="sign-up-navbtn">Sign up</button>
+        </a>
     </div>
     {{/if}}
 
