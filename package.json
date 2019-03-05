@@ -1,11 +1,8 @@
 {
   "name": "Polarad-Project2",
   "version": "1.0.0",
-  "description": "* Tiffany\r * Tanner\r * Alex",
+  "description": "## Team Members: * Tiffany * Tanner * Alex",
   "main": "server.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"

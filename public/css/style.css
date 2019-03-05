@@ -1,58 +1,197 @@
-body {
+body
+{
     background-color: #eeeeee;
 }
 
-.form-control {
+/* profile pic account */
+#profilepicmain
+{
+    position: relative;
+    left: 25%;
+    top: 20%;
+    height: 150px;
+    width: 150px;
+}
+
+/* follow button on modal */
+#modalfollow
+{
+    position: relative;
+    top: 0%;
+    left: 40%;
+    font-weight: bold;
+}
+
+/* account name on main accout page */
+#accountName
+{
+    position: relative;
+    right: 11%;
+    top: 26%;
+    bottom: 65.7%;
+}
+
+#profilepicsmall
+{
+    height: 40px;
+    width: 40px;
+}
+
+/* account name on modal */
+#accountNamemodal
+{
+    display: inline;
+    position: relative;
+    left: 25%;  
+}
+
+/* rounds the corners of images */
+.rounded-corners
+{
+    border-radius: 100%;
+}
+
+/* follow button on accountpage */
+#followbutton
+{
+    position: absolute;
+    left: 32%;
+    top: 23%;
+    bottom: 55%;
+}
+
+/* number of posts */
+#postsNum
+{
+    position: relative;
+    right: 10%;
+    top: 36%;   
+}
+
+/* number of followers */
+#followCount
+{
+    position: relative;
+    left: 10%;
+    top: 15%;
+}
+
+
+#bioheading
+{
+    position: relative;
+    right: 10%;
+    top: 20%;
+}
+
+#biotext
+{
+    position: relative;
+    right: 10%;
+    top: 15%;
+}
+
+/* post divider */
+#postslabel
+{
+    display: inline;
+    position: relative;
+    left: 40%;
+}
+
+#likepic
+{
+    height: 35px;
+    width: 35px;
+}
+
+/* modal cose button */
+#Xclose
+{
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    
+}
+
+textarea
+{
+    resize: none;
+}
+
+.form-control 
+{
     background-color: #eeeeee;
 }
 
-.btn:hover{
-    background-color: #ddd;
-}
 
 /* Nav Bar */
 
-.logo-text {
+.logo-text 
+{
     font-family: 'Pacifico', cursive;
     font-size: 30px;
 }
 
-h1 {
+h1 
+{
     font-family: 'Pacifico', cursive;
     font-size: 50px;
     padding: 15px;
     margin-bottom: 30px;
 }
 
-.search-bar {
+.search-bar 
+{
     position: absolute;
     left: 43%;
 }
 
-.set {
+/* login navbar change */
+.set 
+{
     right: 0;
     padding-right: 10px;
 }
 
-.btn-primary {
-    background-color: lightseagreen;
+.btn-primary 
+{
     border: none;
 }
 
-#login-btn {
+#login-btn 
+{
     margin-right: 5px;
     font-weight: bold;
     color: white;
 }
 
-#sign-up-btn {
+#sign-up-btn 
+{
     font-weight: bold;
     color: black;
 }
 
+/* profile pic navbar */
+#profileDropdown
+{
+    position: relative;
+    right: 25%;
+}
+
+/* profile pic navbar dropdown */
+.dropdown-menu.show 
+{
+    display: block;
+    position: absolute;
+    left: -300%;
+}
+
+
 /* Index */
 
-.login {
+.login 
+{
     width: 250px;
     height: 400px;
     background-color: white;
@@ -60,21 +199,26 @@ h1 {
     margin-top: 150px;
 }
 
-#username-input, #password-input {
+#username-input, #password-input 
+{
     width: 75%;
     margin: auto;
     margin-bottom: 20px;
     font-style: italic
 }
 
-.border-or {
+/* or word lines */
+.border-or 
+{
     border-bottom: 1px solid #ccc;
     margin: 5px;
     margin-top: 25px;
     margin-bottom: 15px;
 }
 
-.or {
+/* or word */
+.or 
+{
     position: absolute;
     left: 745px;
     top: 450px;
@@ -84,19 +228,22 @@ h1 {
 
 /* Upload and Edit Profile*/
 
-h2 {
+h2 
+{
     font-family: 'Pacifico', cursive;
     font-size: 40px;
     padding: 5px;
     text-align: center;
 }
 
-.border {
+.border 
+{
     border-bottom: 2px solid #ccc;
     margin-bottom: 15px;
 }
 
-.form-section {
+.form-section 
+{
     width: 800px;
     margin: auto;
     margin-top: 50px;
@@ -104,6 +251,7 @@ h2 {
     padding: 20px;
 }
 
-#upload-btn, #update-btn {
+#upload-btn, #update-btn 
+{
     margin-left: 685px;
 }

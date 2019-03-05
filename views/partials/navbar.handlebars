@@ -3,7 +3,7 @@
     <a class="navbar-brand logo-text" href="/">
 
         {{!-- Polarad Logo and Home Link --}}
-        <img src="images/polarad_icon_mini.png" width="45" height="45" class="d-inline-block align-top"
+        <img src="/images/polarad_icon_mini.png" width="45" height="45" class="d-inline-block align-top"
             alt="Polarad Logo"> Polarad
     </a>
 
@@ -16,17 +16,16 @@
     <div class="set">
         {{!-- Profile Picture --}}
         <a class="user-login" href=""></a>
-        <img class="mr-1 rounded-circle" src="images/default-user.jpg" width="45" height="45" alt="Profile Picture"></a>
+        {{!-- <img class="mr-1 rounded-circle" src="images/default-user.jpg" width="45" height="45" alt="Profile Picture"> --}}
         <!-- Username with Dropdown Menu of Links-->
-        <div class="btn-group dropleft">
-            <button type="button" class="btn sign-up-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+        <div class="btn-group dropdown">
+            <img class="mr-1 rounded-circle dropdown-toggle" id="profileDropdown" src="/images/default-user.jpg"
+                width="45" height="45" alt="Profile Picture" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
-                {{!-- USERNAME HERE --}}
-                Username
             </button>
             <div class="dropdown-menu">
                 <a class="dropdown-item" href="/upload">Post Image</a>
-                <a class="dropdown-item" href="/update-profile">Edit Profile</a>
+                <a class="dropdown-item" href="/update/:account">Edit Profile</a>
                 <a class="dropdown-item" href="#">Account Settings</a>
             </div>
         </div>
@@ -39,5 +38,7 @@
         <button type="button" class="btn" id="sign-up-btn">Sign up</button>
     </div>
     {{/if}}
+
+
 
 </nav>
