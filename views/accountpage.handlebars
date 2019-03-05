@@ -1,10 +1,13 @@
+{{!-- keep this here for navbar to work --}}
+{{> navbar }}
+{{!-- user account info top --}}
 <div class="container">
     <div class="row">
         <div class="col">
-            <img class="rounded-corners" id="profilepicmain" src="https://via.placeholder.com/150">
+            <img class="rounded-corners" id="profilepicmain" src="/images/default-user.jpg">
         </div>
         <div class="col">
-            <h4 class="accountName">John Smith</h4>
+            <h4 id="accountName">Account Name</h4>
             <button type="button" id="followbutton" class="btn btn-primary">Follow</button>
             <div class="row">
                 <div class="col">
@@ -19,6 +22,7 @@
     </div>
 </div>
 <hr>
+{{!-- posts --}}
 <div class="container">
     <h6 id="postslabel"><i class="fas fa-th"></i> Posts</h6>
 
@@ -29,7 +33,7 @@
 
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-    Launch demo modal
+    Image click example
 </button>
 
 <!-- Modal -->
@@ -38,15 +42,17 @@
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-body">
+                {{!-- left side --}}
                 <div class="row">
                     <div class="col-sm-6">
                         <img src="https://via.placeholder.com/375x500">
                     </div>
+                    {{!-- right side --}}
                     <div class="col-sm-6">
                         <div class="row">
                             <div class="col">
-                                <img class="rounded-corners" id="profilepicsmall" src="https://via.placeholder.com/32">
-                                <h6 class="accountNamemodal">John Smith</h6>
+                                <img class="rounded-corners" id="profilepicsmall" src="/images/default-user.jpg">
+                                <h6 id="accountNamemodal">Account Name</h6>
                                 <a id="modalfollow" href="#">Follow</a>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span id="Xclose" aria-hidden="true">&times;</span>
@@ -69,7 +75,7 @@
                         <div class="row">
                             <div class="col">
                                 <img id="likepic" src="/images/heart-outline.png" onmouseover="hover(this);"
-                                    onmouseout="unhover(this);" />
+                                    onmouseout="unhover(this);"/>
                                 <h6 id="likes"># likes</h6>
                             </div>
                         </div>
