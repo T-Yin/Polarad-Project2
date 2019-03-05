@@ -157,14 +157,14 @@ h1
     border: none;
 }
 
-#login-btn 
+#login-btn, #login-navbtn
 {
     margin-right: 5px;
     font-weight: bold;
     color: white;
 }
 
-#sign-up-btn 
+#sign-up-btn, #sign-up-navbtn 
 {
     font-weight: bold;
     color: black;
@@ -218,10 +218,10 @@ h1
 .or 
 {
     position: absolute;
-    left: 745px;
+    left: 750px;
     top: 450px;
     background-color: white;
-    padding: 10px;
+    padding: 5px;
 }
 
 /* Upload and Edit Profile*/

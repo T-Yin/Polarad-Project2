@@ -1,0 +1,30 @@
+{
+    "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+      "indent": ["error", 2],
+      "no-tabs": "error",
+      "no-empty": "error",
+      "no-extra-semi": "error",
+      "no-extra-parens": "error",
+      "no-irregular-whitespace": "error",
+      "no-cond-assign": "error",
+      "no-dupe-args": "error",
+      "no-dupe-keys": "error",
+      "no-duplicate-case": "error",
+      "no-unused-vars": "error",
+      "yoda": "error",
+      "no-console": "warn"
+    }
+}
