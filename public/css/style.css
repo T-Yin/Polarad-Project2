@@ -1,0 +1,203 @@
+body
+{
+    background-color: #eeeeee;
+}
+#profilepicmain
+{
+    position: relative;
+    left: 25%;
+    top: 20%;
+}
+
+/* #profilepicsmall
+{
+    position: relative;
+    left: 25%;
+    top: 20%;
+} */
+
+#modalfollow
+{
+    position: relative;
+    top: 0%;
+    left: 10%;
+    font-weight: bold;
+}
+.accountName
+{
+    position: relative;
+    right: 11%;
+    top: 26%;
+    bottom: 65.7%;
+}
+
+.accountNamemodal
+{
+    display: inline;
+    position: relative;
+    left: 5%;  
+}
+
+.rounded-corners
+{
+    border-radius: 100%;
+}
+
+#followbutton
+{
+    position: absolute;
+    left: 20%;
+    right: 38%;
+    top: 23%;
+    bottom: 55%;
+}
+#postsNum
+{
+    /* display: inline; */
+    position: relative;
+    right: 10%;
+    top: 36%;   
+}
+
+#followCount
+{
+    position: relative;
+    left: 10%;
+    top: 15%;
+}
+
+#bioheading
+{
+    position: relative;
+    right: 10%;
+    top: 20%;
+}
+
+#biotext
+{
+    position: relative;
+    right: 10%;
+    top: 15%;
+}
+
+#postslabel
+{
+    display: inline;
+    position: relative;
+    left: 40%;
+}
+
+#likepic
+{
+    height: 35px;
+    width: 35px;
+}
+
+#Xclose
+{
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    
+}
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) 
+{
+    #followbutton
+    {
+        display: block;
+        position: relative;
+        top: 30%;
+    }
+
+    #postsNum
+    {
+        display: block;
+        position: relative;
+        right: 0%;
+        top: 90%;
+    }
+
+    #followCount
+    {
+        display: block;
+        position: relative;
+        left: 0%;
+        top: 90%;
+    }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 601px) 
+{
+    #followbutton
+    {
+        position: relative;
+        left: 53.51%;
+        right: 38.34%;
+        top: 4.83%;
+        bottom: 69.57%;
+    }
+
+    #bioheading
+    {
+        
+        top: 110%;
+    }
+
+    #biotext
+    {
+        top: 50%;
+    }
+
+}  */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) 
+{
+
+    #followbutton
+    {
+        position: relative;
+        left: 40%;
+    }
+
+    #bioheading
+    {
+        
+        top: 110%;
+    }
+}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) 
+{
+    #followbutton
+    {
+        position: relative;
+        left: 25%;
+    }
+
+    #bioheading
+    {
+        
+        top: 110%;
+    }
+}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) 
+{
+    #followbutton
+    {
+        position: relative;
+        left: 15%;
+    }
+
+    #bioheading
+    {
+        
+        top: 110%;
+    }
+} */
+
