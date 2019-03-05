@@ -26,9 +26,8 @@ body
 #accountName
 {
     position: relative;
-    right: 11%;
-    top: 26%;
-    bottom: 65.7%;
+    top: 60px;
+    left: 50px;
 }
 
 #profilepicsmall
@@ -54,41 +53,40 @@ body
 /* follow button on accountpage */
 #followbutton
 {
-    position: absolute;
-    left: 32%;
-    top: 23%;
-    bottom: 55%;
+    position: relative;
+    left: 275px;
+    top: 20px;
 }
 
 /* number of posts */
 #postsNum
 {
     position: relative;
-    right: 10%;
-    top: 36%;   
+    top: 40px; 
+    left: 50px;  
 }
 
 /* number of followers */
 #followCount
 {
     position: relative;
-    left: 10%;
-    top: 15%;
+    left: 150px;
+    top: 8px;
 }
 
 
 #bioheading
 {
     position: relative;
-    right: 10%;
-    top: 20%;
+    left: 50px;
+    top: 20px;
 }
 
 #biotext
 {
     position: relative;
-    right: 10%;
-    top: 15%;
+    left: 50px;
+    top: 10px;
 }
 
 /* post divider */
